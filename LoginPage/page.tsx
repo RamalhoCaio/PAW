@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function LoginPage(){
     return(
-        <main>
+        <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <h1>Login Page</h1>
             
             <input type='text' name="User" placeholder="Nome de Usuario"/>

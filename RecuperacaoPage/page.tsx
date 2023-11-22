@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function RecuperacaoPage(){
     return(
-        <main>
+        <main className="flex min-h-screen flex-col items-center justify-between p-24">
             <h1>Recuperacao Page</h1>
 
             <input type='text' name="User" placeholder="Nome Usuario"/>
